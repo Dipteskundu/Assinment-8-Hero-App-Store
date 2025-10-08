@@ -29,6 +29,11 @@ const AppDetails = () => {
         }
     }, [id]);
 
+    // Scroll to top when component mounts
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     // Format downloads to show in millions (M) if over 1,000,000
     const formattedDownloads = downloads >= 1000000 
         ? `${(downloads / 1000000).toFixed(0)}M` 
@@ -59,7 +64,7 @@ const AppDetails = () => {
     };
 
     return (
-        <div className="container mx-auto px-4 py-8 max-w-6xl">
+        <div className="w-full px-4 py-8">
             <ToastContainer />
             
             {/* App Information Section */}
@@ -140,7 +145,11 @@ const AppDetails = () => {
                         >
                             <CartesianGrid strokeDasharray="3 3" />
                             <XAxis type="number" />
-                            <YAxis dataKey="name" type="category" />
+                            <YAxis 
+                                dataKey="name" 
+                                type="category" 
+                                tickFormatter={(value) => value.replace(/-$/, '')}
+                            />
                             <Tooltip />
                             <Bar dataKey="count" fill="#FF9800" barSize={30} radius={[0, 4, 4, 0]} />
                         </BarChart>

@@ -1,7 +1,7 @@
 import React from 'react';
 import image from '../../assets/github.png'
 import logo from '../../assets/logo.png'
-import { Link } from 'react-router'
+import { Link, NavLink } from 'react-router-dom'
 
 const Navbar = () => {
     return (
@@ -14,29 +14,59 @@ const Navbar = () => {
                 <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/apps">Apps</Link></li>
-                    <li><Link to="/installation">Installation</Link></li>
+                    <li>
+                        <NavLink
+                            to="/"
+                            className={({ isActive }) => `pb-1 ${isActive ? 'border-b-2 border-green-500 text-green-600' : 'border-b-2 border-transparent'}`}
+                        >Home</NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/apps"
+                            className={({ isActive }) => `pb-1 ${isActive ? 'border-b-2 border-green-500 text-green-600' : 'border-b-2 border-transparent'}`}
+                        >Apps</NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/installation"
+                            className={({ isActive }) => `pb-1 ${isActive ? 'border-b-2 border-green-500 text-green-600' : 'border-b-2 border-transparent'}`}
+                        >Installation</NavLink>
+                    </li>
                     </ul>
                 </div>
                 <Link to="/" className="btn btn-ghost text-xl"><span><img className='w-8 h-8' src={logo} alt="" /></span> <span className='text-purple-500'>HERO-Apps</span></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/apps">Apps</Link></li>
-                    <li><Link to="/installation">Installation</Link></li>
+                    <li>
+                        <NavLink
+                            to="/"
+                            className={({ isActive }) => `pb-1 ${isActive ? 'border-b-2 border-green-500 text-green-600' : 'border-b-2 border-transparent'}`}
+                        >Home</NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/apps"
+                            className={({ isActive }) => `pb-1 ${isActive ? 'border-b-2 border-green-500 text-green-600' : 'border-b-2 border-transparent'}`}
+                        >Apps</NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/installation"
+                            className={({ isActive }) => `pb-1 ${isActive ? 'border-b-2 border-green-500 text-green-600' : 'border-b-2 border-transparent'}`}
+                        >Installation</NavLink>
+                    </li>
                 </ul>
             </div>
 
 
             <div className="flex items-center  navbar-end">
-                <div href="#" className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500
+                <a href="https://github.com/Dipteskundu" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500
              hover:from-purple-600 hover:via-pink-600 hover:to-red-600
               text-white font-bold py-2 px-4 rounded-lg shadow-lg 
               transform transition duration-500 ease-in-out hover:scale-105 flex">
                     <span className="mr-1 font-bold"><span><img src={image} alt="" /></span></span> Contribute
-                </div>
+                </a>
                 <button
                     className="inline-flex items-center justify-center p-2 rounded-md text-gray-700
                hover:text-gray-900 hover:bg-gray-100 focus:outline-none">
