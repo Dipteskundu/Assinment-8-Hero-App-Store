@@ -6,6 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Installation = () => {
     const allApps = useLoaderData();
     const [installedIds, setInstalledIds] = useState([]);
+    const [sortOrder, setSortOrder] = useState('high-low'); // 'high-low' | 'low-high'
 
     useEffect(() => {
         const ids = JSON.parse(localStorage.getItem('installedApps')) || [];
@@ -15,8 +16,20 @@ const Installation = () => {
     const installedApps = useMemo(() => {
         if (!Array.isArray(allApps)) return [];
         const idSet = new Set(installedIds);
-        return allApps.filter(app => idSet.has(app.id));
-    }, [allApps, installedIds]);
+        const appsOnly = allApps.filter(app => idSet.has(app.id));
+        const sorted = [...appsOnly].sort((a, b) => {
+            const aVal = Number(a.downloads) || 0;
+            const bVal = Number(b.downloads) || 0;
+            // Per requirement:
+            // High-Low: ascending order by downloads
+            // Low-High: descending order by downloads
+            if (sortOrder === 'high-low') {
+                return aVal - bVal; // ascending
+            }
+            return bVal - aVal; // descending
+        });
+        return sorted;
+    }, [allApps, installedIds, sortOrder]);
 
     const handleUninstall = (id) => {
         const next = installedIds.filter(appId => appId !== id);
@@ -41,12 +54,23 @@ const Installation = () => {
 
             <div className="flex items-center justify-between mb-4">
                 <p className="text-sm text-gray-600 font-semibold">{installedApps.length} Apps Found</p>
-                <button className="px-3 py-2 rounded-md text-sm bg-gray-100 border border-gray-200 text-gray-700">Sort By Size ▾</button>
+                <div className="flex items-center gap-2">
+                    <label htmlFor="sortOrder" className="text-sm text-gray-600">Sort by Downloads</label>
+                    <select
+                        id="sortOrder"
+                        value={sortOrder}
+                        onChange={(e) => setSortOrder(e.target.value)}
+                        className="px-3 py-2 rounded-md text-sm bg-gray-50 border border-gray-200 text-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-400"
+                    >
+                        <option value="high-low">High-Low</option>
+                        <option value="low-high">Low-High</option>
+                    </select>
+                </div>
             </div>
 
             <div className="space-y-4">
                 {installedApps.map(app => (
-                    <div key={app.id} className="bg-white rounded-lg shadow-sm border border-gray-100 p-4 flex items-center justify-between">
+                    <div key={app.id} className="bg-white rounded-lg shadow-sm border border-gray-100 p-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                         <div className="flex items-center gap-4">
                             <div className="w-16 h-16 rounded-md overflow-hidden bg-gray-200 flex items-center justify-center">
                                 {app.image ? (
@@ -70,7 +94,7 @@ const Installation = () => {
                                 </div>
                             </div>
                         </div>
-                        <button onClick={() => handleUninstall(app.id)} className="px-4 py-2 bg-emerald-500 hover:bg-emerald-600 text-white rounded-md">Uninstall</button>
+                        <button onClick={() => handleUninstall(app.id)} className="self-start md:self-auto px-4 py-2 bg-emerald-500 hover:bg-emerald-600 text-white rounded-md">Uninstall</button>
                     </div>
                 ))}
 
