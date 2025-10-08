@@ -2,9 +2,11 @@ import React from 'react';
 import PlayIcon from '../../assets/google-play.png'
 import Apps from '../../assets//apps.png'
 import HeroImage from '../../assets/hero.png'
+import State from '../State/State';
 
 const Banner = () => {
     return (
+        <div>
         <div className="hero bg-base-200 min-h-screen mb-0">
             <div className="hero-content text-center">
                 <div className="max-w-200">
@@ -20,6 +22,8 @@ const Banner = () => {
                 </div>
 
             </div>
+        </div>
+        <State></State>
         </div>
     );
 };

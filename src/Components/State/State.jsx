@@ -2,7 +2,7 @@ import React from 'react';
 
 const State = () => {
     return (
-        <section className="bg-purple-400 from-purple-500 to-purple-700 bg-gradient-to-r py-20 px-4 sm:px-6 lg:px-8 -mt-4">
+        <div className="bg-purple-400 from-purple-500 to-purple-700 bg-gradient-to-r py-20 px-4 sm:px-6 lg:px-8 -mt-4">
             {/* Headline */}
             <h2 className="text-white text-3xl sm:text-4xl font-bold text-center mb-12 tracking-wide">
                 Trusted By Millions, Built For You
@@ -33,7 +33,7 @@ const State = () => {
                 </div>
 
             </div>
-        </section>
+        </div>
     );
 };
 

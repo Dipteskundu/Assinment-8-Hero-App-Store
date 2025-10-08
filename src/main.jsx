@@ -6,12 +6,18 @@ import Navbar from './Components/Navbar/Navbar.jsx'
 import Footer from './Components/Footer/Footer.jsx'
 import Banner from './Components/Banner/Banner.jsx'
 import State from './Components/State/State.jsx'
+import { RouterProvider } from 'react-router'
+import router from './Routes/Routes.jsx'
+
+// const router = createBrowserRouter([
+//   {
+//     path:'/',
+//     element:<Navbar></Navbar>
+//   }
+// ])
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Navbar></Navbar>
-    <Banner></Banner>
-    <State></State>
-    <Footer></Footer>
+    <RouterProvider router= {router}/>
   </StrictMode>,
 )
