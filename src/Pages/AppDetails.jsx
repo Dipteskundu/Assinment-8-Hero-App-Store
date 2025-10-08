@@ -68,26 +68,26 @@ const AppDetails = () => {
             <ToastContainer />
             
             {/* App Information Section */}
-            <div className="bg-gray-50 rounded-lg p-6 shadow-md flex flex-col md:flex-row gap-8">
+            <div className="bg-gray-50 rounded-lg p-4 sm:p-6 shadow-md flex flex-col lg:flex-row gap-6 lg:gap-8">
                 {/* App Image */}
-                <div className="w-full md:w-1/3 lg:w-1/4">
-                    <div className="rounded-lg overflow-hidden bg-gray-200 h-64 flex items-center justify-center">
+                <div className="w-full lg:w-1/3 xl:w-1/4 flex justify-center lg:justify-start">
+                    <div className="rounded-lg overflow-hidden bg-gray-200 h-48 sm:h-56 lg:h-64 w-full max-w-xs lg:max-w-none flex items-center justify-center">
                         {image ? (
-                            <img src={image} alt={title} className="w-full h-full object-cover" />
+                            <img src={image} alt={title} className="w-full h-full object-cover object-center" />
                         ) : (
                             <div className="w-full h-full rounded-md bg-[#e6e6e6] flex items-center justify-center">
-                                <span className="text-gray-400">Image placeholder</span>
+                                <span className="text-gray-400 text-sm">Image placeholder</span>
                             </div>
                         )}
                     </div>
                 </div>
                 
                 {/* App Details */}
-                <div className="w-full md:w-2/3 lg:w-3/4">
-                    <h1 className="text-3xl font-bold text-[#08202a]">{title}</h1>
-                    <p className="text-gray-600 mt-1">{companyName}</p>
+                <div className="w-full lg:w-2/3 xl:w-3/4">
+                    <h1 className="text-2xl sm:text-3xl font-bold text-[#08202a] leading-tight">{title}</h1>
+                    <p className="text-gray-600 mt-1 text-sm sm:text-base">{companyName}</p>
                     
-                    <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <div className="mt-4 sm:mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
                         {/* Downloads */}
                         <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">

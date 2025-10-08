@@ -4,8 +4,8 @@ import DefaultErrorPage from "../Pages/DefaultErrorPage";
 import Banner from '../Components/Banner/Banner'
 import Home from "../Pages/Home";
 import AppList from "../Pages/AppList";
-import Installation from "../Pages/Installation";
 import AppDetails from "../Pages/AppDetails";
+import Installation from "../Pages/Installation";
 
 const router = createBrowserRouter([
     {
@@ -24,11 +24,6 @@ const router = createBrowserRouter([
                 loader: () => fetch('/play-data.json')
             },
             {
-                path: '/installation',
-                element:<Installation></Installation>,
-                loader: () => fetch('/play-data.json')
-            },
-            {
                 path: '/app/:id',
                 element: <AppDetails />,
                 loader: async ({ params }) => {
@@ -37,6 +32,11 @@ const router = createBrowserRouter([
                     const app = data.find(app => app.id === parseInt(params.id));
                     return app;
                 }
+            },
+            {
+                path: '/installation',
+                element: <Installation />,
+                loader: () => fetch('/play-data.json')
             }
         ],
     },
