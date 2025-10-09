@@ -9,6 +9,10 @@ const MainLayout = () => {
     const location = useLocation();
 
     useEffect(() => {
+        // Ensure new route loads from top
+        if (typeof window !== 'undefined' && window.scrollTo) {
+            window.scrollTo({ top: 0, behavior: 'auto' });
+        }
         setIsNavigating(true);
         const timer = setTimeout(() => {
             setIsNavigating(false);

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import Banner from '../Components/Banner/Banner';
 import { useLoaderData } from 'react-router';
 import AppsCard from '../Components/AppsCard/AppsCard';
@@ -31,6 +32,15 @@ const Home = () => {
                         ))}
                     </div>
                 )}
+
+                <div className="flex justify-center my-10">
+                    <Link 
+                        to="/apps"
+                        className="inline-flex items-center gap-2 px-6 py-3 bg-purple-500 hover:bg-purple-600 text-white rounded-lg font-medium transition-colors duration-200"
+                    >
+                        All apps
+                    </Link>
+                </div>
             </div>
         </div>
     );

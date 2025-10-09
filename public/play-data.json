@@ -1,362 +1,363 @@
+
 [
   {
-    "image": "https://i.ibb.co.com/fzj018m0/chat-app-logo-icon-vector.jpg",
-    "title": "ChatFlow",
-    "companyName": "NextGen Tech",
+    "image": "https://i.ibb.co.com/zTKKcySQ/whatsapp-removebg-preview.png",
+    "title": "WhatsApp",
+    "companyName": "Meta",
     "id": 1,
-    "description": "ChatFlow is the premier communication platform designed for security and speed. Experience crystal-clear, real-time messaging with industry-leading, end-to-end encryption to ensure your conversations remain completely private. Beyond text, ChatFlow seamlessly supports high-definition voice and video calls, connecting you globally with minimal latency. Our advanced AI-powered engine automatically filters spam and irrelevant content, allowing you to focus only on important messages. Connect securely, communicate clearly, and collaborate efficiently with the future of instant messaging.",
-    "size": 54,
-    "reviews": 12034,
-    "ratingAvg": 4.6,
-    "downloads": 2500000,
+    "description": "WhatsApp is a fast, reliable messaging app offering end-to-end encrypted texts, voice, and video calls across the globe. Share media, create groups, and connect seamlessly with simple backups and low data usage.",
+    "size": 35,
+    "reviews": 45000000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
     "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 900 },
-      { "name": "3 star", "count": 2100 },
-      { "name": "4 star", "count": 4000 },
-      { "name": "5 star", "count": 6534 }
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 35000000 }
     ]
   },
   {
-    "image": "https://i.ibb.co.com/fzj018m0/chat-app-logo-icon-vector.jpg",
-    "title": "TaskMate",
-    "companyName": "Focus Labs",
+    "image": "https://i.ibb.co.com/WvSpbDqY/instagram-logo-icon-transparent-background-free-png-removebg-preview.png",
+    "title": "Instagram",
+    "companyName": "Meta",
     "id": 2,
-    "description": "Maximize your personal and professional productivity with TaskMate, the intelligent organizational companion. Effortlessly structure your entire daily schedule, set powerful smart reminders that adapt to your location and time, and never miss a deadline. Our proprietary AI-based time analysis engine automatically tracks and evaluates your work patterns, providing deep insights to optimize your efficiency and eliminate time-wasting activities. TaskMate is more than a to-do list; it’s a productivity operating system that helps you achieve flow and meet your goals faster.",
-    "size": 38,
-    "reviews": 8750,
-    "ratingAvg": 4.4,
-    "downloads": 1200000,
-    "ratings": [
-      { "name": "1 star", "count": 600 },
-      { "name": "2 star", "count": 850 },
-      { "name": "3 star", "count": 1200 },
-      { "name": "4 star", "count": 3200 },
-      { "name": "5 star", "count": 3900 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/fzj018m0/chat-app-logo-icon-vector.jpg",
-    "title": "FitPulse",
-    "companyName": "WellnessWorks",
-    "id": 3,
-    "description": "FitPulse is your ultimate partner for holistic health and fitness. Easily log and analyze every workout, from intense runs to strength training, with our comprehensive activity tracker. Utilizing continuous heart rate monitoring and advanced biometrics, the app gives you a real-time view of your body’s performance. Stop guessing and start achieving with personalized training plans, tailored nutritional guidance, and goal-setting features. Whether you are a beginner or a marathon runner, FitPulse provides the data and motivation you need to surpass your health and wellness goals.",
-    "size": 82,
-    "reviews": 19020,
-    "ratingAvg": 4.8,
-    "downloads": 5000000,
-    "ratings": [
-      { "name": "1 star", "count": 700 },
-      { "name": "2 star", "count": 1200 },
-      { "name": "3 star", "count": 2200 },
-      { "name": "4 star", "count": 5000 },
-      { "name": "5 star", "count": 10920 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/fzj018m0/chat-app-logo-icon-vector.jpg",
-    "title": "PhotoLab Pro",
-    "companyName": "PixelArts",
-    "id": 4,
-    "description": "Unlock the full potential of your photography with PhotoLab Pro, the professional-grade editing studio in your pocket. Our suite of advanced tools allows for meticulous color grading, precise curve adjustments, and stunning visual effects. Revolutionize your workflow with AI-powered background removal and object selection, enabling complex edits in seconds. From sophisticated beauty filters for portraits to professional-level retouching, PhotoLab Pro offers an intuitive interface with desktop-caliber power. Transform everyday shots into extraordinary masterpieces instantly.",
-    "size": 97,
-    "reviews": 30500,
-    "ratingAvg": 4.5,
-    "downloads": 8000000,
-    "ratings": [
-      { "name": "1 star", "count": 1300 },
-      { "name": "2 star", "count": 1800 },
-      { "name": "3 star", "count": 3700 },
-      { "name": "4 star", "count": 9800 },
-      { "name": "5 star", "count": 13800 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/fzj018m0/chat-app-logo-icon-vector.jpg",
-    "title": "NoteNest",
-    "companyName": "CloudSync Ltd.",
-    "id": 5,
-    "description": "NoteNest is the ultimate solution for capturing, organizing, and accessing your ideas anytime, anywhere. This lightweight, beautifully designed note-taking application features robust rich text formatting, allowing you to create detailed, structured documents with ease. With seamless, real-time cloud synchronization, your notes are always up-to-date across all your devices, guaranteeing no thought is ever lost. Furthermore, full offline access ensures you can read and edit your most critical documents even without an internet connection. Capture inspiration the moment it strikes with NoteNest.",
-    "size": 25,
-    "reviews": 6400,
-    "ratingAvg": 4.2,
-    "downloads": 900000,
-    "ratings": [
-      { "name": "1 star", "count": 450 },
-      { "name": "2 star", "count": 670 },
-      { "name": "3 star", "count": 1200 },
-      { "name": "4 star", "count": 2100 },
-      { "name": "5 star", "count": 1980 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/fzj018m0/chat-app-logo-icon-vector.jpg",
-    "title": "TravelGo",
-    "companyName": "WanderSoft",
-    "id": 6,
-    "description": "Transform your travel experience with TravelGo, your all-in-one trip planning and booking application. Effortlessly plan complex itineraries, from road trips to international getaways, using our intuitive interface. Discover hidden gems and off-the-beaten-path destinations recommended by a global community of travelers. Our powerful booking engine instantly compares flight and hotel prices across hundreds of providers, guaranteeing you secure the best value for your entire journey. Manage all reservations, confirmations, and plans in one centralized, easy-to-use platform.",
-    "size": 61,
-    "reviews": 11200,
-    "ratingAvg": 4.3,
-    "downloads": 1500000,
-    "ratings": [
-      { "name": "1 star", "count": 700 },
-      { "name": "2 star", "count": 900 },
-      { "name": "3 star", "count": 1500 },
-      { "name": "4 star", "count": 3300 },
-      { "name": "5 star", "count": 4800 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/fzj018m0/chat-app-logo-icon-vector.jpg",
-    "title": "MindEase",
-    "companyName": "CalmTech",
-    "id": 7,
-    "description": "Find your center and reduce daily stress with MindEase, the leading mental wellness application. Access an extensive library of guided meditation sessions, specifically curated for sleep, focus, and anxiety relief, catering to both novices and experienced practitioners. Utilize our robust mood tracking feature to monitor your emotional well-being over time and gain valuable insights into your psychological health patterns. MindEase provides a personalized path toward greater calm, resilience, and mindfulness, helping you navigate the complexities of modern life with ease and clarity.",
-    "size": 43,
-    "reviews": 20500,
-    "ratingAvg": 4.9,
-    "downloads": 4000000,
-    "ratings": [
-      { "name": "1 star", "count": 200 },
-      { "name": "2 star", "count": 400 },
-      { "name": "3 star", "count": 1000 },
-      { "name": "4 star", "count": 4500 },
-      { "name": "5 star", "count": 14400 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/fzj018m0/chat-app-logo-icon-vector.jpg",
-    "title": "CryptoTrack",
-    "companyName": "FinCore Labs",
-    "id": 8,
-    "description": "CryptoTrack is the definitive tool for serious cryptocurrency investors and enthusiasts. Monitor real-time price movements for thousands of digital assets, including major coins and burgeoning NFT collections, with professional-grade charting tools. Build and manage a diversified virtual portfolio while setting custom, dynamic alerts for significant price changes, trading volume shifts, or market cap milestones. Stay ahead of the market with reliable data, transparent analysis, and a suite of features designed to help you make informed, timely financial decisions in the fast-paced world of digital finance.",
-    "size": 58,
-    "reviews": 15800,
+    "description": "Instagram is a visual-first social network for sharing photos, reels, and stories. Discover creators, follow interests, and use built-in editing tools to publish eye-catching content.",
+    "size": 90,
+    "reviews": 38000000,
     "ratingAvg": 4.1,
-    "downloads": 2700000,
+    "downloads": 2000000000,
     "ratings": [
-      { "name": "1 star", "count": 900 },
-      { "name": "2 star", "count": 1300 },
-      { "name": "3 star", "count": 2500 },
-      { "name": "4 star", "count": 4700 },
-      { "name": "5 star", "count": 6400 }
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 13500000 }
     ]
   },
   {
-    "image": "https://i.ibb.co.com/fzj018m0/chat-app-logo-icon-vector.jpg",
-    "title": "EduSmart",
-    "companyName": "BrightFuture Inc.",
-    "id": 9,
-    "description": "Advance your knowledge with EduSmart, the interactive learning platform built for the modern student. Gain access to a vast catalog of accredited online courses across various disciplines, all delivered through engaging, multi-media content. Reinforce your learning with competitive, real-time quizzes and live, instructor-led sessions. The application features robust student progress tracking and performance analytics, allowing educators and learners to identify strengths and areas for improvement. Turn your mobile device into a powerful classroom and take control of your educational journey.",
-    "size": 72,
-    "reviews": 9200,
-    "ratingAvg": 4.7,
-    "downloads": 3000000,
+    "image": "https://i.ibb.co.com/WNqQFkR2/tiktok-6338432-1280-removebg-preview.png",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 3,
+    "description": "TikTok is the short-form video platform that surfaces viral content, creative tools, and algorithmic recommendations to keep users entertained and creators empowered.",
+    "size": 120,
+    "reviews": 42000000,
+    "ratingAvg": 4.1,
+    "downloads": 3000000000,
     "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 1000 },
-      { "name": "4 star", "count": 3200 },
-      { "name": "5 star", "count": 4200 }
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 3500000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 14000000 },
+      { "name": "5 star", "count": 17000000 }
     ]
   },
   {
-    "image": "https://i.ibb.co.com/fzj018m0/chat-app-logo-icon-vector.jpg",
-    "title": "SoundWave",
-    "companyName": "AudioVerse",
-    "id": 10,
-    "description": "SoundWave is the ultimate digital music streaming experience. Access a colossal library of millions of songs, including new releases, classic albums, and curated global playlists. Create and share personalized playlists for every mood and occasion, or discover new artists with our intelligent recommendation engine. Enjoy the freedom of music on your own terms by downloading your favorite tracks directly to your device for unlimited, high-fidelity offline listening, all completely ad-free with our premium tier. Immerse yourself in the world of audio.",
-    "size": 95,
-    "reviews": 54000,
-    "ratingAvg": 4.5,
-    "downloads": 12000000,
-    "ratings": [
-      { "name": "1 star", "count": 2300 },
-      { "name": "2 star", "count": 3400 },
-      { "name": "3 star", "count": 7200 },
-      { "name": "4 star", "count": 15000 },
-      { "name": "5 star", "count": 26100 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/fzj018m0/chat-app-logo-icon-vector.jpg",
-    "title": "DocScan",
-    "companyName": "ScanMaster",
-    "id": 11,
-    "description": "Transform your phone into a high-powered, portable document scanner with DocScan. Rapidly capture documents, receipts, whiteboards, and more using your camera, instantly converting them into professional-quality PDF or JPEG files. Our cutting-edge Optical Character Recognition (OCR) technology allows you to extract and edit text from any scanned image, making your physical documents fully searchable and editable. DocScan is essential for professionals and students who require fast, secure, and accurate digital archiving of physical paperwork.",
-    "size": 31,
-    "reviews": 6400,
-    "ratingAvg": 4.2,
-    "downloads": 1300000,
-    "ratings": [
-      { "name": "1 star", "count": 600 },
-      { "name": "2 star", "count": 800 },
-      { "name": "3 star", "count": 1200 },
-      { "name": "4 star", "count": 1800 },
-      { "name": "5 star", "count": 2000 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/fzj018m0/chat-app-logo-icon-vector.jpg",
-    "title": "NewsCast",
-    "companyName": "MediaByte",
-    "id": 12,
-    "description": "NewsCast is your essential source for comprehensive, unbiased, and real-time global news coverage. Stay informed with breaking news alerts delivered instantly to your device, ensuring you are always the first to know. Our sophisticated algorithm curates a personalized news feed based on your interests and reading habits, bringing you relevant stories from a diverse collection of trusted journalistic sources worldwide. Experience a clean, ad-optimized interface designed for distraction-free reading and explore various topics with unparalleled depth and clarity.",
-    "size": 47,
-    "reviews": 8900,
-    "ratingAvg": 4.0,
-    "downloads": 2200000,
-    "ratings": [
-      { "name": "1 star", "count": 1200 },
-      { "name": "2 star", "count": 1100 },
-      { "name": "3 star", "count": 1800 },
-      { "name": "4 star", "count": 2500 },
-      { "name": "5 star", "count": 2300 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/fzj018m0/chat-app-logo-icon-vector.jpg",
-    "title": "ShopSmart",
-    "companyName": "Ecomix",
-    "id": 13,
-    "description": "Revolutionize your shopping experience with ShopSmart, the unified platform for all your retail needs. Effortlessly browse, discover, and purchase products from numerous major online marketplaces without ever leaving the app. Our powerful price comparison engine scans competing offers in real-time to guarantee you always find the best deals and maximum savings. Utilize smart lists and automated coupons to streamline your purchasing process. ShopSmart provides a seamless, efficient, and cost-effective way to manage your entire online retail activity.",
-    "size": 76,
-    "reviews": 23100,
-    "ratingAvg": 4.4,
-    "downloads": 5600000,
-    "ratings": [
-      { "name": "1 star", "count": 1500 },
-      { "name": "2 star", "count": 1700 },
-      { "name": "3 star", "count": 3100 },
-      { "name": "4 star", "count": 7500 },
-      { "name": "5 star", "count": 11200 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/fzj018m0/chat-app-logo-icon-vector.jpg",
-    "title": "Foodify",
-    "companyName": "ByteBite",
-    "id": 14,
-    "description": "Foodify delivers the world's cuisines right to your doorstep. Browse comprehensive menus from thousands of your favorite local and national restaurants and place your order in minutes. Experience unparalleled transparency with real-time delivery tracking, including an interactive live map view, so you know exactly where your meal is. Customize your order to perfection and enjoy secure, fast transactions. Whether it’s a quick lunch or a family feast, Foodify makes ordering delicious food simple, fast, and highly reliable.",
-    "size": 59,
-    "reviews": 17500,
-    "ratingAvg": 4.6,
-    "downloads": 3800000,
-    "ratings": [
-      { "name": "1 star", "count": 800 },
-      { "name": "2 star", "count": 1000 },
-      { "name": "3 star", "count": 2300 },
-      { "name": "4 star", "count": 5200 },
-      { "name": "5 star", "count": 8200 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/fzj018m0/chat-app-logo-icon-vector.jpg",
-    "title": "StreamFlix",
-    "companyName": "VisionMedia",
-    "id": 15,
-    "description": "Welcome to StreamFlix, the powerhouse of premium entertainment. Dive into a massive, ever-expanding catalog featuring thousands of critically acclaimed movies, exclusive series, and captivating documentaries. Enjoy a seamless, high-quality streaming experience across all your devices with absolutely no advertisements in our premium subscription. The integrated download feature allows you to save content for convenient offline viewing, perfect for travel or commutes. StreamFlix is committed to bringing you the best in global storytelling and cinematic innovation.",
+    "image": "https://i.ibb.co.com/S41v4TSD/youtube-logo-youtube-icon-transparent-free-png-removebg-preview.png",
+    "title": "YouTube",
+    "companyName": "Google",
+    "id": 4,
+    "description": "YouTube offers a vast library of videos, live streams, and original content. Watch, subscribe, and upload with a suite of creator tools and cross-device syncing.",
     "size": 110,
-    "reviews": 74000,
-    "ratingAvg": 4.7,
-    "downloads": 20000000,
-    "ratings": [
-      { "name": "1 star", "count": 5000 },
-      { "name": "2 star", "count": 7000 },
-      { "name": "3 star", "count": 12000 },
-      { "name": "4 star", "count": 19000 },
-      { "name": "5 star", "count": 31000 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/fzj018m0/chat-app-logo-icon-vector.jpg",
-    "title": "Weatherly",
-    "companyName": "SkyWatch",
-    "id": 16,
-    "description": "Weatherly delivers hyper-local, precision weather forecasting to keep you prepared for any conditions. Get up-to-the-minute readings and reliable 7-day outlooks powered by advanced meteorological models. Our dynamic, live radar maps offer crystal-clear visualization of current precipitation, storm paths, and wind patterns for your specific area. Critical severe weather alerts, including flash flood and tornado warnings, are delivered instantly to ensure your safety. Trust Weatherly for the most comprehensive and timely weather data available.",
-    "size": 42,
-    "reviews": 13200,
-    "ratingAvg": 4.3,
-    "downloads": 2400000,
-    "ratings": [
-      { "name": "1 star", "count": 800 },
-      { "name": "2 star", "count": 1000 },
-      { "name": "3 star", "count": 2100 },
-      { "name": "4 star", "count": 3800 },
-      { "name": "5 star", "count": 5500 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/fzj018m0/chat-app-logo-icon-vector.jpg",
-    "title": "Budgetly",
-    "companyName": "MoneyMind",
-    "id": 17,
-    "description": "Take control of your financial future with Budgetly, the intuitive personal finance manager. Effortlessly track and categorize every expense with simple data entry or secure bank synchronization. Create custom, flexible budgets designed to align with your financial goals, whether you're saving for a major purchase or paying off debt. Our sophisticated analytics provide a clear visual breakdown of your spending patterns, helping you quickly identify areas for optimization and save more money effectively. Start budgeting smarter, not harder.",
-    "size": 39,
-    "reviews": 6900,
-    "ratingAvg": 4.5,
-    "downloads": 1800000,
-    "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 600 },
-      { "name": "3 star", "count": 1300 },
-      { "name": "4 star", "count": 2400 },
-      { "name": "5 star", "count": 2600 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/fzj018m0/chat-app-logo-icon-vector.jpg",
-    "title": "RideNow",
-    "companyName": "UrbanMobility",
-    "id": 18,
-    "description": "RideNow is the seamless solution for on-demand personal transportation in urban environments. Instantly book a variety of vehicles—from private cabs to eco-friendly bikes and local autos—all from one reliable application. Benefit from fully transparent, upfront pricing with no hidden fees and a detailed breakdown of your fare before you confirm. Our advanced GPS technology provides accurate, real-time driver tracking, allowing you to monitor your ride's progress and estimated arrival. Enjoy safe, efficient, and affordable mobility at your fingertips, 24/7.",
-    "size": 64,
-    "reviews": 22800,
+    "reviews": 60000000,
     "ratingAvg": 4.2,
-    "downloads": 6200000,
+    "downloads": 5000000000,
     "ratings": [
-      { "name": "1 star", "count": 1900 },
-      { "name": "2 star", "count": 2500 },
-      { "name": "3 star", "count": 4000 },
-      { "name": "4 star", "count": 6400 },
-      { "name": "5 star", "count": 8000 }
+      { "name": "1 star", "count": 2500000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 9500000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 28000000 }
     ]
   },
   {
-    "image": "https://i.ibb.co.com/fzj018m0/chat-app-logo-icon-vector.jpg",
-    "title": "Bookify",
-    "companyName": "ReadHub",
+    "image": "https://i.ibb.co.com/yBN0kJpQ/google-mail-icon-logo-removebg-preview.png",
+    "title": "Gmail",
+    "companyName": "Google",
+    "id": 5,
+    "description": "Gmail is Google's email service with fast search, powerful spam filtering, and robust integrations to help you manage personal and work accounts in one place.",
+    "size": 50,
+    "reviews": 22000000,
+    "ratingAvg": 4.3,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 12000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/WpqWT18n/spotify-app-logo-spotify-icon-transparent-free-png-removebg-preview.png",
+    "title": "Spotify",
+    "companyName": "Spotify Ltd.",
+    "id": 6,
+    "description": "Spotify is a leading music streaming service that gives access to millions of tracks and podcasts, personalized playlists, and offline listening on multiple devices.",
+    "size": 95,
+    "reviews": 48000000,
+    "ratingAvg": 4.2,
+    "downloads": 3500000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 20500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qMny64Wj/fblogo.png",
+    "title": "Facebook",
+    "companyName": "Meta",
+    "id": 7,
+    "description": "Facebook connects people through profiles, groups, events, and a news feed. Share updates, follow pages, and join communities worldwide.",
+    "size": 110,
+    "reviews": 52000000,
+    "ratingAvg": 4.0,
+    "downloads": 4000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 4500000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 18500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/p6FKPpHm/OIP-removebg-preview-3.png",
+    "title": "Twitter",
+    "companyName": "X Corp.",
+    "id": 8,
+    "description": "Twitter (X) is a real-time microblogging platform for short posts, trends, and rapid conversations on news, culture, and public discourse.",
+    "size": 70,
+    "reviews": 28000000,
+    "ratingAvg": 3.9,
+    "downloads": 1500000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 3500000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 8500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/C5CZjxMQ/netflix-transparent-netflix-free-free-png-removebg-preview.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 9,
+    "description": "Netflix is a premium streaming service offering movies, series, and documentaries with offline downloads and multi-device playback.",
+    "size": 150,
+    "reviews": 62000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 18000000 },
+      { "name": "5 star", "count": 34500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/b5ynQbLT/1941258-removebg-preview.png",
+    "title": "Uber",
+    "companyName": "Uber Technologies",
+    "id": 10,
+    "description": "Uber provides on-demand rides, food delivery, and logistics services with transparent pricing and live driver tracking for convenient city travel.",
+    "size": 88,
+    "reviews": 33000000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 2200000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 9000000 },
+      { "name": "5 star", "count": 16800000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4gNrQBzK/google-maps-icon-png-9-removebg-preview.png",
+    "title": "Google Maps",
+    "companyName": "Google",
+    "id": 11,
+    "description": "Google Maps offers turn-by-turn navigation, real-time traffic, public transit info, and place discovery worldwide with offline map support.",
+    "size": 45,
+    "reviews": 41000000,
+    "ratingAvg": 4.5,
+    "downloads": 4000000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 9000000 },
+      { "name": "5 star", "count": 28000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/tPJP9m2H/snapchat-logo-transparent-background-0-removebg-preview.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 12,
+    "description": "Snapchat is a camera-first social app with ephemeral messaging, AR filters, and Stories that let you share moments with friends in fun ways.",
+    "size": 85,
+    "reviews": 26000000,
+    "ratingAvg": 4.0,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 7500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Y74FDbCr/zoom-logo-transparent-free-png-removebg-preview.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video",
+    "id": 13,
+    "description": "Zoom is a video-conferencing app used for meetings, webinars, and collaboration with screen sharing and recording features.",
+    "size": 70,
+    "reviews": 21000000,
+    "ratingAvg": 4.3,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 14000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gbZygWfZ/OIP-removebg-preview-1.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "id": 14,
+    "description": "Slack is a collaboration hub for teams combining channels, messaging, file sharing, and integrations to streamline workplace communication.",
+    "size": 120,
+    "reviews": 15000000,
+    "ratingAvg": 4.4,
+    "downloads": 300000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 11000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/cSnf5LJK/Microsoft-Teams-Logo-2-removebg-preview.png",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft",
+    "id": 15,
+    "description": "Microsoft Teams brings chat, meetings, and file collaboration together in one workspace integrated with Microsoft 365.",
+    "size": 140,
+    "reviews": 19000000,
+    "ratingAvg": 4.3,
+    "downloads": 600000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 4300000 },
+      { "name": "5 star", "count": 13000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/mCFqdZT7/5385265-removebg-preview.png",
+    "title": "Dropbox",
+    "companyName": "Dropbox, Inc.",
+    "id": 16,
+    "description": "Dropbox is a cloud storage app for backing up, syncing, and sharing files across devices with automatic versioning and collaboration features.",
+    "size": 60,
+    "reviews": 12000000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 8800000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/rKwdbybJ/OIP-removebg-preview.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest",
+    "id": 17,
+    "description": "Pinterest is a visual discovery engine for ideas like recipes, home design, and fashion — save, organize, and explore inspiration from around the web.",
+    "size": 88,
+    "reviews": 17000000,
+    "ratingAvg": 4.4,
+    "downloads": 450000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 11000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/mrMyQPQQ/reddit-logo-reddit-icon-transparent-free-png-removebg-preview.png",
+    "title": "Reddit",
+    "companyName": "Reddit, Inc.",
+    "id": 18,
+    "description": "Reddit is a community-driven platform where people share news, discuss interests, and build communities around niche topics and trends.",
+    "size": 65,
+    "reviews": 24000000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 12000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/3mHmgN7W/linkedin-logo-linkedin-icon-transparent-free-png-removebg-preview.png",
+    "title": "LinkedIn",
+    "companyName": "Microsoft",
     "id": 19,
-    "description": "Bookify opens the door to a boundless digital library, offering instant access to read and download thousands of eBooks and audiobooks across all genres. Our robust platform ensures seamless synchronization of your library and reading progress across every device, allowing you to pick up exactly where you left off, whether on your phone, tablet, or desktop. Use our integrated reading tracker to monitor your pace, set personal milestones, and motivate yourself to complete your reading goals. Build your perfect digital bookshelf today.",
-    "size": 78,
-    "reviews": 18200,
-    "ratingAvg": 4.6,
-    "downloads": 4100000,
+    "description": "LinkedIn is the professional network for building your career, job hunting, and staying informed with industry news and connections.",
+    "size": 95,
+    "reviews": 20000000,
+    "ratingAvg": 4.5,
+    "downloads": 800000000,
     "ratings": [
-      { "name": "1 star", "count": 700 },
-      { "name": "2 star", "count": 900 },
-      { "name": "3 star", "count": 1900 },
-      { "name": "4 star", "count": 4800 },
-      { "name": "5 star", "count": 8900 }
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 350000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 15000000 }
     ]
   },
   {
-    "image": "https://i.ibb.co.com/fzj018m0/chat-app-logo-icon-vector.jpg",
-    "title": "GameHub",
-    "companyName": "PixelForge",
+    "image": "https://i.ibb.co.com/W4nX20F4/amazon-removebg-preview.png",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon",
     "id": 20,
-    "description": "GameHub is the ultimate centralized destination for the modern gamer. Discover the latest trending video games, get early access to betas, and manage your entire gaming library across multiple platforms. Elevate your competitive spirit by easily joining community-run tournaments and global esports events directly through the app. Our detailed analytics dashboard tracks and visualizes your comprehensive gaming statistics, achievements, and performance metrics, allowing you to benchmark yourself against friends and pros. Connect, compete, and conquer with GameHub.",
-    "size": 102,
-    "reviews": 51000,
-    "ratingAvg": 4.8,
-    "downloads": 15000000,
+    "description": "Amazon Shopping provides a one-stop marketplace for browsing and purchasing millions of products, tracking orders, and managing returns with Prime benefits.",
+    "size": 130,
+    "reviews": 50000000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 2000 },
-      { "name": "2 star", "count": 3000 },
-      { "name": "3 star", "count": 5000 },
-      { "name": "4 star", "count": 12000 },
-      { "name": "5 star", "count": 29000 }
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 25000000 }
     ]
   }
 ]

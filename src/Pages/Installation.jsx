@@ -71,10 +71,10 @@ const Installation = () => {
         const idSet = new Set(installedIds);
         const appsOnly = allApps.filter(app => idSet.has(app.id));
         const sorted = [...appsOnly].sort((a, b) => {
-            const aVal = Number(a.downloads) || 0;
-            const bVal = Number(b.downloads) || 0;
-            if (sortOrder === 'high-low') return aVal - bVal; // ascending
-            return bVal - aVal; // descending
+            const aVal = Number(a.size) || 0;
+            const bVal = Number(b.size) || 0;
+            if (sortOrder === 'high-low') return bVal - aVal; // High to Low (MB)
+            return aVal - bVal; // Low to High (MB)
         });
         return sorted;
     }, [allApps, installedIds, sortOrder]);
@@ -104,7 +104,7 @@ const Installation = () => {
                         </div>
                     </div>
                     <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3">
-                        <label htmlFor="sortOrder" className="text-sm text-gray-600 font-medium">Sort by Downloads:</label>
+                        <label htmlFor="sortOrder" className="text-sm text-gray-600 font-medium">Sort by Size:</label>
                         <select
                             id="sortOrder"
                             value={sortOrder}
