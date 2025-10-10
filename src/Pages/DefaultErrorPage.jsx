@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Navbar from '../Components/Navbar/Navbar';
-import Footer from '../Components/Footer/Footer';
-import errorImage from '../assets/Error-404.png';
+import Navbar from '@/Components/Navbar/Navbar';
+import Footer from '@/Components/Footer/Footer';
+import errorImage from '@/assets/Error-404.png';
 
 const DefaultErrorPage = () => {
     return (

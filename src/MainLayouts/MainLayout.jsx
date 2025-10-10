@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from '../Components/Navbar/Navbar';
-import Footer from '../Components/Footer/Footer';
-import Loading from '../Components/Loading/Loading';
+import Navbar from '@/Components/Navbar/Navbar';
+import Footer from '@/Components/Footer/Footer';
+import Loading from '@/Components/Loading/Loading';
 import { Outlet, useLocation } from 'react-router';
 
 const MainLayout = () => {

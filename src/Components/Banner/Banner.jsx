@@ -1,8 +1,8 @@
 import React from 'react';
-import PlayIcon from '../../assets/google-play.png'
-import Apps from '../../assets//apps.png'
-import HeroImage from '../../assets/hero.png'
-import State from '../State/State';
+import PlayIcon from '@/assets/google-play.png'
+import Apps from '@/assets//apps.png'
+import HeroImage from '@/assets/hero.png'
+import State from '@/Components/State/State';
 
 const Banner = () => {
     return (

@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { useLoaderData } from 'react-router';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Loading from '../Components/Loading/Loading';
+import Loading from '@/Components/Loading/Loading';
 
 function formatDownloads(count) {
     if (typeof count !== 'number') return count;

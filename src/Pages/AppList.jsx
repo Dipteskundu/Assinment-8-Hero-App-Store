@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { useLoaderData } from 'react-router';
-import AppsCard from '../Components/AppsCard/AppsCard';
-import Loading from '../Components/Loading/Loading';
+import AppsCard from '@/Components/AppsCard/AppsCard';
+import Loading from '@/Components/Loading/Loading';
 
 const AppList = () => {
     const allApps = useLoaderData();

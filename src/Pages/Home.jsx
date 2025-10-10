@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Banner from '../Components/Banner/Banner';
+import Banner from '@/Components/Banner/Banner';
 import { useLoaderData } from 'react-router';
-import AppsCard from '../Components/AppsCard/AppsCard';
-import Loading from '../Components/Loading/Loading';
+import AppsCard from '@/Components/AppsCard/AppsCard';
+import Loading from '@/Components/Loading/Loading';
 
 const Home = () => {
     const apps = useLoaderData();

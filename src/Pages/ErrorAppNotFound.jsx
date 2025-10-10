@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import errorImage from '../assets/Error-App-Not-Found.png';
+import errorImage from '@/assets/Error-App-Not-Found.png';
 
 const ErrorAppNotFound = () => {
     return (
